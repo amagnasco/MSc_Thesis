@@ -44,11 +44,6 @@
     \usepackage{import} % -import- facilitates relative file references within each file
     \usepackage[round]{natbib}
     
-    % for eps to pdf conversion
-    % these may not be necessary for all students/disciplines
-    \usepackage{epstopdf}
-    \epstopdfsetup{update} 
-    
     % pdf metadata
     \usepackage[
         pdfauthor={Alessandro G. Magnasco},
@@ -74,6 +69,7 @@
         factor=1100, % add 10% to the protrusion amount (default is 1000)
         stretch=10, shrink=10 % reduce stretchability/shrinkability (default is 20/20)
     ]{microtype}
+    \microtypecontext{spacing=nonfrench}
 
     % custom text font
     %\usepackage{tgpagella} %tgpagella, gfsartemisia
